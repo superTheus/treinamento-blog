@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Archivo', sans-serif;
+}
+
+
+.container-main {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #F3F7FF;
+}
+
+.card-shoes p {
+  font-weight: bold;
+}
+
+.card-shoes a {
+  color: #7CA2F4;
+  text-decoration: none;
+}
